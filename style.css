@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to top, #ffccd5, #ffe6e9);
+    overflow: hidden;
+}
+.game-container {
+    text-align: center;
+    padding: 20px;
+}
+#score {
+    font-size: 1.5em;
+    margin: 10px;
+}
+canvas {
+    border: 2px solid #ff7eb9;
+    background-color: #fff0f6;
+    display: block;
+    margin: 0 auto;
+}
+#poem {
+    margin-top: 30px;
+    background-color: #fff0f6;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    color: #b30059;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.hidden {
+    display: none;
+}
